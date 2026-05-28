@@ -1,0 +1,11 @@
+.quickBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.top{
+  padding: 20px;
+  background: #065e4f;
+  border: none;
+  color: #fff;
+}

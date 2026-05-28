@@ -1,0 +1,36 @@
+.footer{
+    width: 100%;
+    height: 200px;
+    background: #090e2c;
+    .innerFooter{
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        gap: 50px;
+        .footerLogo{
+            color: #ffffffb8;
+            font-size: 56px;
+
+        }
+        .footerNav{
+            display: flex;
+            gap:20px;
+            ul{
+                padding-top: 10px;
+                color: #ffffffb8;
+                li{
+                    a{
+                        color: #ffffffb8;
+                        font-size: 14px;
+                    }
+                    &:first-child{
+                        color: #fff;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
